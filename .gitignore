@@ -1,39 +1,35 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
+
+# Flask instance folder (contains DB if using sqlite)
+instance/
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+uploads/
+
+# Environments
+.env
+.venv
 env/
 venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.gitattributes
+ENV/
+env.bak/
+venv.bak/
 
-# Environment & Database
+# Environment Variables
 .env
-.flaskenv
-instance/
-*.db
-*.sqlite
 
-# IDEs
-.vscode/
-.idea/
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Project-specific
-uploads/
-*.webp
-*.png
-*.jpg

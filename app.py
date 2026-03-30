@@ -34,7 +34,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # Deployment-ready DB URI (Agnostic Handler)
-DATABASE_URL = os.environ.get('DATABASE_URL', 'mysql+pymysql://root:your_password@localhost/project_db')
+DATABASE_URL = os.environ.get('DATABASE_URL', 'sqlite:///project_db.sqlite')
 if DATABASE_URL.startswith("postgres://"):
     DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
 

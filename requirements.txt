@@ -2,12 +2,14 @@ Flask==3.0.0
 Flask-SQLAlchemy==3.1.1
 Flask-SocketIO==5.3.6
 PyMySQL==1.1.0
-psycopg2-binary==2.9.9
+# psycopg2-binary==2.9.9 (Production only - fails on some Windows setups)
+# psycopg2-binary==2.9.9
 python-dotenv==1.0.0
-gunicorn==21.2.0
+# gunicorn==21.2.0 (Production only - not for Windows)
+# gunicorn==21.2.0
 eventlet==0.33.3
 Authlib==1.2.1
 requests==2.31.0
 dnspython==2.4.2
-SQLAlchemy==2.0.23
-Werkzeug==3.0.1
+SQLAlchemy>=2.0.38
+Werkzeug>=3.0.6

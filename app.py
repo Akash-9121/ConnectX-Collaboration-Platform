@@ -1086,4 +1086,4 @@ def meeting_room(room_id):
     return render_template('meeting_room.html', room_id=room_id)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True)
+    socketio.run(app, debug=True, allow_unsafe_werkzeug=True)

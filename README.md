@@ -19,11 +19,11 @@ A modern collaboration platform for managing projects, tracking tasks, communica
 
 ---
 
-# 📖 About ConnectX
+# 📖 About
 
 ConnectX is a full-stack collaboration platform that centralizes project management, task tracking, real-time communication, video meetings, file sharing, analytics, and role-based collaboration into a single workspace.
 
-Built using **HTML, CSS, JavaScript, Python, Flask, MySQL, Socket.IO, and WebRTC**, ConnectX delivers a seamless collaboration experience through secure authentication, role-based dashboards, project and task management, real-time messaging, video meetings, file sharing, reporting tools, and an interactive smart assistant.
+Built using HTML, CSS, JavaScript, Python, Flask, MySQL, Socket.IO, and WebRTC, ConnectX delivers a seamless collaboration experience through secure authentication, role-based dashboards, workspace and project management, task tracking, real-time messaging, video conferencing, file sharing, reporting tools, and an interactive smart assistant.
 
 ---
 
@@ -110,9 +110,9 @@ An interactive assistant that helps users navigate the platform, execute common 
 
 ## 🎨 User Experience
 
-- Responsive interface
-- Dark & Light theme
-- Clean and modern dashboard
+- Responsive and intuitive interface
+- Dark & Light theme support
+- Clean, modern, and user-friendly dashboard
 ---
 
 # 🛠️ Tech Stack
